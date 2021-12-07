@@ -33,7 +33,10 @@ const AddQuiz = (props) => {
           user_details: props.user_details,
         }),
       };
-      fetch("http://localhost:5000/add_quiz", requestOptions)
+      fetch(
+        "https://quizapp-riwajprasai.herokuapp.com/add_quiz",
+        requestOptions
+      )
         .then((data) => data.json())
         .then((data) => {
           console.log(data);

@@ -6,7 +6,7 @@ const Quizes = (props) => {
   const [all_quizes, update_all_quizes] = useState([]);
 
   if (all_quizes.length === 0) {
-    fetch("http://localhost:5000/get_all_quizes")
+    fetch("https://quizapp-riwajprasai.herokuapp.com/get_all_quizes")
       .then((data) => data.json())
       .then((data) => {
         update_all_quizes(data);

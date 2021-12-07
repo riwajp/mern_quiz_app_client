@@ -24,7 +24,7 @@ const Signup = (props) => {
         password: password,
       }),
     };
-    fetch("http://localhost:5000/signup", requestOptions)
+    fetch("https://quizapp-riwajprasai.herokuapp.com/signup", requestOptions)
       .then((data) => data.json())
       .then((data) => {
         console.log(data);

@@ -19,7 +19,7 @@ const Login = (props) => {
         password: password,
       }),
     };
-    fetch("http://localhost:5000/login", requestOptions)
+    fetch("https://quizapp-riwajprasai.herokuapp.com/login", requestOptions)
       .then((data) => data.json())
       .then((data) => {
         update_show_loader(false);

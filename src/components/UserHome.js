@@ -47,7 +47,10 @@ const UserHome = (props) => {
         user_details: props.user_details,
       }),
     };
-    fetch("http://localhost:5000/get_my_quizes", requestOptions)
+    fetch(
+      "https://quizapp-riwajprasai.herokuapp.com/get_my_quizes",
+      requestOptions
+    )
       .then((data) => data.json())
       .then((data) => {
         update_my_quizes(data);
