@@ -1,7 +1,7 @@
 .App {
-  text-align: center;
+  width: 100%;
+  height: 100%;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +35,227 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.signup_container {
+  min-width: 300px;
+  max-width: 500px;
+  margin: auto auto auto auto;
+  border: 1px solid green;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-top: 10vh;
+}
+
+.signup_title {
+  width: 100%;
+
+  text-align: center;
+  font-size: 50px;
+}
+
+.signup_bg {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80");
+  background-size: 100% 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.loader {
+  margin-top: 40vh;
+  margin-left: 45vw;
+}
+.login_in_signup {
+  width: 80px;
+  height: 30px;
+  background-color: royalblue;
+  color: white;
+  border: 1px solid royalblue;
+}
+
+.ushome_body {
+  margin-top: 10px;
+  padding: 10px 10px 10px 10px;
+}
+
+.add_quiz_btn {
+  background-color: royalblue;
+  border: 1px solid royalblue;
+  border-radius: 5px;
+  width: 150px;
+  height: 50px;
+  color: white;
+}
+.add_quiz_body {
+  max-width: 900px;
+  margin: auto;
+  padding: 10px 10px 10px 10px;
+  margin-top: 20px;
+  background-color: white;
+  min-height: 500px;
+}
+
+.add_quiz_name {
+  width: 85%;
+}
+
+.zero_questions {
+  margin-top: 100px;
+  font-size: 30px;
+  text-align: center;
+
+  color: rgb(182, 173, 173);
+}
+.add_question {
+  text-align: center;
+  min-width: 200px;
+  height: 50px;
+  padding: 10px;
+  background-color: royalblue;
+  border: 1px solid royalblue;
+  border-radius: 5px;
+  color: white;
+}
+
+.save_quiz {
+  background-color: rgb(87, 209, 87);
+  border: 1px solid rgb(87, 209, 87);
+  height: 50px;
+  padding: 5px 5px 5px 5px;
+  border-radius: 5px;
+  color: white;
+  min-width: 100px;
+  margin-left: 10px;
+}
+
+.add_question_question {
+  width: 100%;
+}
+
+.options {
+}
+
+.option_div {
+  margin-top: 50px;
+}
+.option {
+  width: 99%;
+  float: right;
+}
+
+.btn_submit_question {
+  width: 49%;
+  height: 60px;
+  color: white;
+  background-color: royalblue;
+  border: 1px solid royalblue;
+  border-radius: 5px;
+}
+
+.btn_cancel_question {
+  width: 49%;
+  height: 60px;
+  color: white;
+  background-color: rgb(233, 172, 58);
+  border: 1px solid rgb(233, 172, 58);
+  border-radius: 5px;
+  float: right;
+}
+.add_questions_main_container {
+  margin-top: 20px;
+}
+.add_quiz_question_container {
+  width: 85%;
+  border: 1px solid white;
+  border-radius: 5px;
+  float: left;
+  margin-top: 10px;
+}
+
+.add_quiz_option {
+  width: 100%;
+  min-height: 30px;
+  background-color: rgb(226, 240, 248);
+  padding: 5px;
+  border: 1px solid rgb(236, 243, 247);
+  border-radius: 10px;
+  margin-top: 10px;
+  text-align: left;
+  transition: 0.3s;
+}
+.my_quizes_title {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.my_quizes_quiz {
+  background-color: white;
+  font-size: 13px;
+}
+.my_quizes_quiz_name {
+  font-size: 17px;
+  font-weight: 600;
+}
+.my_quizes_quiz_genre {
+  float: right;
+  min-width: 75px;
+  background-color: rgb(109, 240, 109);
+  color: white;
+  text-align: center;
+  border: 1px solid rgb(109, 240, 109);
+  border-radius: 5px;
+}
+.take_quiz_container {
+  max-width: 800px;
+  margin: auto auto auto auto;
+  background-color: white;
+  min-height: 300px;
+  margin-top: 50px;
+  padding: 10px;
+}
+.take_quiz_question_index {
+  font-size: 11px;
+}
+.take_quiz_next_btn {
+  background-color: royalblue;
+  width: 100px;
+  height: 35px;
+  border: 1px solid royalblue;
+  padding: 2px;
+  margin-top: 10px;
+  color: white;
+  border-radius: 5px;
+}
+
+.take_quiz_result_quiz_name {
+  font-size: 20px;
+  color: rgb(37, 37, 37);
+  font-weight: 800;
+  text-align: left;
+}
+
+.take_quiz_result_score {
+  font-size: 20px;
+  font-weight: 300;
+  min-width: 150px;
+  height: 50px;
+  background-color: royalblue;
+  border: 1px solid royalblue;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+}
+.logout_btn {
+  background-color: rgb(225, 174, 65);
+  border: 1px solid rgb(225, 174, 65);
+  border-radius: 5px;
+  width: 150px;
+  height: 50px;
+  color: white;
+  margin-left: 25px;
 }
